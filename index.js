@@ -1,6 +1,6 @@
 
 /**
- * Expose `ec2` cookbook.
+ * Expose `ec2`.
  */
 
 exports = module.exports = ec2;
