@@ -29,6 +29,7 @@ exports.aliases = {
   , keys: 'key'
   , groups: 'group'
   , 'security-group': 'group'
+  , 'sg': 'group'
 }
 
 /**
