@@ -37,7 +37,7 @@ exports.aliases = {
  */
 
 function ec2(name){
-  return require.resolve('./lib/' + name);
+  return require.resolve('./lib/models/' + name);
 }
 
 /**
