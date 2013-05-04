@@ -44,7 +44,7 @@ function ec2(name){
  * List commands for EC2 cookbooks.
  */
 
-exports.describe = function(recipe, args){
+exports.help = function(recipe, args){
   console.log('');
   exports.objects.forEach(function(name){
     var cookbook = require(ec2(name));
