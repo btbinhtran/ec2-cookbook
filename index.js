@@ -45,11 +45,12 @@ function ec2(name){
  */
 
 exports.help = function(recipe, args){
-  console.log('');
+  var txt = [''];
   exports.objects.forEach(function(name){
     var cookbook = require(ec2(name));
     for (var verb in cookbook)
-      console.log('    $', 'tower', verb, name);
+      txt.push(['    $', 'tower', verb, name].join(' '));
   });
-  console.log('');
+  txt.push('');
+  console.log(txt.join('\n'));
 }
