@@ -14,6 +14,8 @@ exports = module.exports = ec2;
 exports.objects = [
     'instance'
   , 'credentials'
+  , 'image'
+  , 'group'
 ];
 
 /**
